@@ -1,0 +1,51 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    title Learn Love Live
+    meta(name='description', content='Learn Love Live')
+    meta(name='keywords', content='Learn Love Live, Caravan of Praise, The Muhibbain')
+    meta(name='author', content='@wansaleh')
+
+    //- stylesheet
+    link(rel='stylesheet', href='/css/site.min.css')
+  body
+
+    //
+      Navigation
+      ==================================================
+    //- nav.navbar.navbar-dark.bg-inverse.bg-inverse-custom.navbar-fixed-top
+    //-   .container
+    //-     a.navbar-brand(href='/')
+    //-       //- img(src="/img/logo.png", alt="", style="width: 230px;")
+    //-       span.sr-only Learn Love Live
+
+    //
+      Hero Section
+      ==================================================
+    header.jumbotron.text-xs-center.center-vertically(role='banner')
+      .container
+
+        .mt-5.mb-5.pl-1.pr-1
+          h1.display-3
+            img(src="/img/LLL_Logo.png", alt="", style="width: 100%; max-width: 600px;")
+            span.sr-only Learn Love Live
+
+    //
+      Footer
+      ==================================================
+    footer.section-footer(role='contentinfo')
+      .container.text-xs-center
+        .row
+          .col-md-12
+            small.media-body.media-bottom
+              span.fade-50 Copyright © 2017
+              br
+              span
+                | Made with 
+                i.icon-heart.mdc-text-red
+                |  Learn Love Live
+
+    script(src='/js/site.min.js')
